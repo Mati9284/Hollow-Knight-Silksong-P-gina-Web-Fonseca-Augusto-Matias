@@ -1,0 +1,180 @@
+:root {
+    --white:#ffff;
+    --red:#c90000;
+    --redblack:#730A13;
+    --links:#F2B6BB;
+    --brown:#BF907E;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+.relleno-header {
+    width: 100%;
+    height: 120px;
+}
+
+.logo-imagen {
+    
+    margin-right: 50px;
+}
+
+.encabezado-pagina {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 96%;
+    background-color: var(--red);
+    background-image: linear-gradient( to right, rgb(255, 41, 41), var(--redblack));
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: var(--white);
+}
+
+.seccion-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.links:hover {
+    color: var(--links);
+}
+
+body {
+    background-image: url(/FondoHollowKnightSilksong.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--white);
+}
+
+
+#trailer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 90px;
+    color: var(--white);
+}
+
+.div-titulo-trailer {
+    margin: 5px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.titulo-trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+.video {
+    border-radius: 10px;
+    width: 100%;
+    height: 200x;
+}
+
+.div-texto-trailer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+}
+
+.texto-trailer {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+
+#como-jugar {
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.texto-como-jugar {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.div-de-mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mapa {
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+.imagen-mapa {
+
+    width: 50%;
+    border-radius: 5px;
+}
+
+#obtenerlo {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.imagenes-steam-xbox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-para-footer {
+    background-color: var(--red);
+    background-image: linear-gradient( to right, rgb(255, 41, 41), var(--redblack));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.footer-texto {
+    margin-top: 20px;
+}
